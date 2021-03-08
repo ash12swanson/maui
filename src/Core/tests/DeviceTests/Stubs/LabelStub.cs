@@ -11,5 +11,6 @@ namespace Microsoft.Maui.DeviceTests.Stubs
 		public Thickness Padding { get; set; }
 
 		public Font Font { get; set; }
+		public int MaxLines { get; set; } = -1;
 	}
 }
